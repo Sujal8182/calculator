@@ -49,7 +49,9 @@ int main(){
         cout << "Enter your choice : ";
         cin >> user;
         int first = 0, second = 0;
+            if (user >=1 && user <=5){
             getInput(first,second);
+            };
         switch (user)
         {
         case 1:
