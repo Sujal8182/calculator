@@ -14,7 +14,7 @@ void sub(int a,int b){
     
     cout << "Subtraction of "<<a<<" and "<<b<<"  is : "<< a - b << endl;
 }
-void div(int a,int b){
+void division(int a,int b){
     if (b == 0) {
         cout << "Error: Division by zero is not allowed!" << endl;
     } else {
@@ -59,7 +59,7 @@ int main(){
             sub(first,second);
             break;
         case 3:
-            div(first,second);
+            division(first,second);
             break;
         case 4:
             mul(first,second);
