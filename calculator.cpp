@@ -8,7 +8,7 @@ void getInput(int &first,int &second){
 }
 void add(int a,int b){
     
-    cout << "Additon of "<<a<<" and "<<b<<"  is : "<< a + b << endl;
+    cout << "Addition of "<<a<<" and "<<b<<"  is : "<< a + b << endl;
 }
 void sub(int a,int b){
     
@@ -39,10 +39,10 @@ int main(){
     int user;
     do
     {
-        cout << "\n------Welcome to Calculaor-----"<< endl;
-        cout << "Press 1 for Additon " << endl;
+        cout << "\n------Welcome to Calculator-----"<< endl;
+        cout << "Press 1 for Addition " << endl;
         cout << "Press 2 for Subtraction " << endl;
-        cout << "Press 3 for Divsion " << endl;
+        cout << "Press 3 for Division " << endl;
         cout << "Press 4 for Multiplication " << endl;
         cout << "Press 5 for Remainder" << endl;
         cout << "Press 0 for Exit" << endl;
@@ -70,7 +70,7 @@ int main(){
         case 0:
             break;
         default:
-            cout << "Invalid outpur"<< endl;
+            cout << "Invalid output"<< endl;
             break;
         }
     } while (user != 0);
